@@ -1,0 +1,26 @@
+
+/*
+   날짜 : 2025/07/17
+   이름 : 김수진
+   내용 : 5장 데이터베이스 객체
+*/
+-- 워크북 P13
+-- 실습하기
+SELECT *FROM DICTIONARY;
+SELECT TABLE_NAME FROM USER_TABLES;
+SELECT OWNER, TABLE_NAME FROM ALL_TABLES;
+// DBA로 시작하는 데이터 사전은 최고관리자SYSTEM만 조회가능함
+SELECT * FROM DBA_TABLES;
+SELECT * FROM DBA_USERS;
+
+
+-- 실습하기 3-2
+SELECT * FROM USER_INDEXES;
+
+
+
+
+
+
+
+

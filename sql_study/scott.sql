@@ -1,4 +1,5 @@
--- 교재 p26 ~ 64p까지
+-- CH01.SELECT 명령어를 이용한 데이터 조회
+
 select * from emp;
 DESC DEPT;
 SELECT *FROM TAB;
@@ -98,6 +99,11 @@ SELECT EMPNO, ENAME, SAL FROM EMP
     MINUS
     SELECT EMPNO, ENAME,SAL FROM EMP WHERE SAL >2500;
     
+-- CH02. 단일행 함수
+// INITCAP() 영어에서 첫글자만 대문자로 출력하고 나머지는 전부 소문자로 출력하는 함수
+SELECT NAME, INITCAP(NAME) "INITCAP"
+    FROM PROFESSOR
+    WHERE DEPTNO =101;
 
 
 
